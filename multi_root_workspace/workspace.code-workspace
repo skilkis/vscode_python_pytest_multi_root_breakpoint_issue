@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "path": "..\\project_b"
+    },
+    {
+      "path": "..\\project_a"
+    }
+  ],
+  "launch": {
+    "compounds": [],
+    "configurations": [
+      {
+        "name": "Python: Debug",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTEST_ADDOPTS": "--no-cov"
+        },
+        "justMyCode": false,
+        "purpose": ["debug-test"],
+        "request": "launch",
+        "type": "python"
+      }
+    ],
+    "version": "0.2.0"
+  }
+}
